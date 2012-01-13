@@ -1,0 +1,178 @@
+body {
+	margin:0; 
+	padding:0; 
+	position:absolute; 
+	height:100%; 
+	background-image: url('plaatjes/donker.png');
+	width:100%;
+	}
+
+div#container {
+	background-image: url('plaatjes/licht.png'); 
+	width: 700px;
+	min-height: 80%;
+	float: left;
+}
+
+div#container2 {
+	width: 700px;
+	padding: 25px 25px 25px 25px;
+}
+
+div#winkelwagen {
+	text-align: center;
+	background-image: url('plaatjes/licht.png');
+	height: 200px;
+	width: 200px;
+	float: right;
+	list-style-type: none;
+}
+
+div#cont {
+margin: 0 auto;
+width: 915px;
+height:100%;
+}
+
+
+div#menu ul {
+	float:left;
+	padding: 0px;
+	width: 915px;
+	list-style-type: none; /* geen bolletjes*/
+	text-align: center; /* midden */
+	height: 2.1em; /* zorgt voor het midden zitten van de tekst*/
+	padding-top: 0.8em; /* zorgt voor het midden zitten van de tekst*/
+	text-transform: uppercase;
+	font-size: 0.75em;
+	font: calibri;
+	background-image: url('plaatjes/licht.png');
+}
+
+div#contlogoservice{
+float:left;
+width:915px;
+height:120px;
+}
+
+div#servicemenu {
+float:right;
+position:relative;
+top:75px;
+width:400px;
+height: 2.1em; /* zorgt voor het midden zitten van de tekst*/
+padding-top: 3.0em; /* zorgt voor het midden zitten van de tekst*/
+text-transform: uppercase;
+font-size: 0.75em;
+word-spacing:20px;
+text-align:center;
+font: calibri;
+list-style-type: none; /* geen bolletjes*/
+}
+
+div#servicemenu a:link, div#servicemenu a:visited {
+	color: #000; /* alles zwart */
+	text-decoration: none;
+}
+
+div#servicemenu a:hover, div#servicemenu a:active {
+	color: #C00; /* alles rood */
+	text-decoration: none;
+}
+
+
+
+div#menu ul li {
+	display: inline; /* zorg dat ze naast elkaar komen te staan */
+	margin: 0 15px; /* ruimte er tussen */
+}
+
+div#menu ul li a:link, div#menu ul li a:visited {
+	color: #000; /* alles zwart */
+	text-decoration: none;
+}
+
+div#menu ul li a:hover, div#menu ul li a:active {
+	color: #C00; /* alles rood */
+	text-decoration: none;
+}
+	
+div#productplaatje {
+width: 200px;
+float:left;
+height:200px;
+}
+
+div#prijslevertijd {
+float:left;
+width: 250px;
+height:200px;
+list-style-type: none; /* geen bolletjes*/
+text-align: center; /* midden */
+font-size: 1.75em;
+}
+div#contknoppen{
+float:left;
+width:200px;
+height:200px;
+}
+
+div#bestelknop {
+position: relative;
+top:40px;
+width: 200px;
+height:50px;
+}
+
+div#wagenknop {
+position: relative;
+top:60px;
+width: 200px;
+height:50px;
+}
+
+div#titel{
+float:left;
+width:650px;
+text-align: center; /* midden */
+font-size: 3em;
+border-top:solid;
+border-color:black;
+}
+
+div#beschrijving {
+border-top:solid;
+border-bottom:solid;
+padding-top:20px;
+padding-left:20px;
+border-color:black;
+width: 630px;
+float:left;
+}
+
+div#product{
+float:left;
+width:200px;
+height:250px;
+margin-right:25px;
+margin-bottom:25px;
+}
+
+div#welkomsttekst{
+float:left;
+width:650px;
+height:300px;
+text-align:center;
+font: calibri;
+font-size:2em;
+}
+
+div#bannerindex{
+float:left;
+margin-left:75px;
+}
+
+div#banner{
+float:right;
+margin-top:20px;
+}

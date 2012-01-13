@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css">
+		<title>Product</title>
+	</head>
+
+	<body>		
+
+		<div id="cont">
+			<div id="contlogoservice">
+				<img src="plaatjes/logo.png" onclick="location.href='index.html';" style="cursor:pointer;" alt="logo"/>
+				<div id="servicemenu">
+					<a href="klantenservice.html">Klantenservice</a>
+					<a href="contact.html">Contact</a>
+					<a href="account.html">Account</a>
+				</div>
+			</div>		
+			
+			<div id="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="overview.html">Boormachines</a></li>
+					<li><a href="overview.html">Schroevendraaiers</a></li>
+					<li><a href="overview.html">Moersleutels</a></li>
+					<li><a href="overview.html">Hamers</a></li>
+					<li><a href="overview.html">Tangen</a></li>
+					<li><a href="overview.html">Zagen</a></li>
+					<li><a href="overview.html">Moeren en bouten</a></li>
+				</ul>
+			</div>
+		
+			<div id="winkelwagen">
+				 <br>
+				<form method="post" action="inloggen.php">
+					<input id="llnr" name="llnr" type="text" value="gebruikersnaam" onfocus="if(this.value == 'gebruikersnaam') {this.value = '';}"><br>
+					<input id="wachtwoord" name="wachtwoord" type="password" onfocus="if(this.value == 'wachtwoord') {this.value = '';}" value="wachtwoord">
+					<input type="submit" class="button" value="Inloggen" name="submit"><br>
+				</form>
+				<li><a href="registreren.php">Registereren</a></li>
+			</div>
+				
+			<div id="container">
+				<div id="container2">
+					<div id="productplaatje"><img src="plaatjes/Gedore Schroevendraaiers Vde Kruiskop PH.jpg" alt="product"/></div>
+					<div id="prijslevertijd">
+					<br>
+					300 EURO<br>
+					<br>
+					LEVERTIJD<br>
+					3 DAGEN
+					</div>
+					<div id="contknoppen">
+						<div id="bestelknop" onclick="location.href='bestellen.html';" style="cursor:pointer;"><img src="plaatjes/bestelbutton.png" alt="bestelbutton"/></div>
+						<div id="wagenknop"><img src="plaatjes/inwinkelwagen.png" alt="winkelbutton"/></div>
+					</div>
+					<div id="titel">Een ding dat iets doet</div>
+					<div id="beschrijving">
+					Technische specificaties <br>
+					Toerental onbelast 0 - 1.000 / 3.000/ min. <br>
+					Max. aandraaimoment 54 Nm <br>
+					Kraag 43 mm <br>
+					Opname spindel 1/2? x 20 UNF <br>
+					eluidsniveau 79 dB <br>
+					Lengte 339 mm <br>
+					Gewicht 2 kg <br>
+					Capaciteit in staal 13 mm <br>
+					Capaciteit in hout 40 mm <br>
+					Opgenomen vermogen 790 W<br><br>
+
+					Standaard toebehoren <br>
+					1 handgreep <br>
+					1 diepteaanslag<br><br>
+					</div>
+				</div>
+			</div>
+			<div id="banner">
+				<img src="plaatjes/banner.gif" onclick="location.href='overview.html';" style="cursor:pointer;" alt="logo"/>
+			</div>
+		</div>
+	</body>
+</html>
